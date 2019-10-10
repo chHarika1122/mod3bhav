@@ -1,0 +1,92 @@
+Child c=new child();
+But this is also not an error
+ parent p=new child();
+static       dynamic
+-----------------------------
+RTTI
+run
+time
+type
+identification .
+It states that every obj has 2 references.
+Ininheritance we need to call constructor mean 
+     super---> Sub
+     From subclass obj we access super--->sub
+In case of polymorphism :
+Super---->sub
+In case of method:
+from subclass obj we access super--->sub
+and only override of sub classs
+whenever a parent is create an obj of parent new childand what ever return in runtime will
+down casting example["((child )p).silent()"]
+
+
+---------------------------------------------------------------------------------------------
+ABSTRACT ClASS:
+a class declared using "abstract" keyword is abstract class.
+abstrat class is used to acheive data abstraction.
+An abstract class consists abstract as well as non-abstract methods.
+Abstract methods does not have body.
+Abstract class cannot be instantiated.
+An abstract class acheives 0% to 100% of data abstraction.
+we can do dynamic binding inorder to create an obj 
+
+--------------------------------------------------------------------------------------------
+
+INTERFACE:
+An interface is a contract based model between producer and consumer.
+All methods of  interface are by defaut public,abstract.
+An interface acheives 100% of data abstraction.interface cannot be instantiated.
+
+
+
+in data abstraction both abstract class and interfaces are used.and Interface is used more
+
+An empty interface is called as tagging/marker interface
+-----------------------------------------------------------------------------------------
+ARRAYS:
+
+array of objects(int[] arr= bew int[5])
+First class objects(int arr[]={10,20,30};)
+
+types of arrays
+1D array
+2D array
+Jagged array:no of rows is fixed but no of column is different
+for each lop is defined only to iterate the data
+
+
+
+
+
+
+
+
+validation,Ui,Test,Schema,exception,collection------------------------->classes in exam
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+hirerachy of Exception
+JAva.lang.throwable(throwble is basically an interface in java used to find errors and exceptions. example error (;,spelling mistake,syntax prblm) example exception any erroe occurs during execution of code is called as runtime error or excetion
+
+it has error and exception
+exception has again classified into checked and unchecked exception.
+-->a checked exception occurs due to system configuration(wrong inputs,missing the files)
+-->a unchecked excepton occurs dur to a programmers mistake
+
+Exception handling:
+Any runtime error occurd which makes sftwr to terminates itself .it is a technique to handle run time error or exception and give an appropriate msg to an user
+try
+{
+}
+catch(ExceptionType obj)
+{
+}
+
+
+throw                                              throws
+1. Define exception                             1.Declare Exception
+2.you can change the error message              2.You cannot change the error message
+3.you can only define one exception             3.you can declare multiple exceptions
+4."throw" is written within the method          4."throws" is written outside the method after method parameter before method body

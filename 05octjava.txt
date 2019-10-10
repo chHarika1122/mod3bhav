@@ -1,0 +1,165 @@
+public: Aceess Modifier
+static:Static is a keyword, it is used in method so that it can be called without object creation
+void: it is a return type
+one difference between the func & mtd.function is written outside the class , method is written inside the class
+main: It is the name of the method
+String[] args :We create a variable of string array type (  "[]"-Subscript operator  ) 
+               It helps to intrepret the code line by line.
+
+
+-----------------------------------------------------------------------------------------
+System: It is a class in java which is available in java.lang package
+ we have 3 static objects(in(input),out(output),err(error))
+out: It is a static object of class PrintStream. PrintStream class is available in java.io package.
+Println(): It is a override method of class PrintStream.
+----------------------------------------------
+javap selecting a package
+------------------------------------------------------------
+Class Logic{
+static public void main(String[] args)
+{
+System.out.println("HelloWorld");
+}
+}
+
+
+ans:
+static public void main(String[] args) & public static void main(String[] args)
+ to declare a method following syntax is used:
+access_modifier(optional) return_type methodName();
+thus output remains same
+--------------------------------------------------------------------
+class logic 2
+         {
+
+	public static void main() 
+	{
+		System.out.println("Hello");
+		System.out.print("RAM");
+	}
+	public static void main (String[] args)
+	{
+		System.out.println("hello testers");
+	}
+
+}
+    
+
+
+
+ans : output hello testers
+ we can't put two string[] args in same class
+   
+
+
+
+Inorder to get two display we need to give main(); in the string[] args class
+it is in the same class so no need of objects
+
+
+
+
+
+public class HelloWorldDemo {
+
+	public static void main() 
+	{
+		System.out.println("Hello");
+		System.out.print("RAM");
+	}
+	public static void main (String[] args)
+	{ 
+		main();
+		System.out.println("hello testers");
+	}
+
+}
+ in this we get output we get both
+
+------------------------------------------------------------------------------------- 
+Operators in JAVA
+->Operators are used to perform operation on two or more variables.
+->Types of operator:
+1) Arithmetic operators
++ 
+-
+/
+*
+%
+2) Assignment Operators
++= 
+-=
+*= 
+/=
+3) Relational Operators
+.
+,
+,=
+.=
+==
+!=
+4)Logical Operator
+&&
+||
+5)Unary Operator
+++ 
+And(compulsion) 
+if x1 is true then x2 will be evaluated.
+if x1 is false, x2 will not evaluate.
+-- or(optional)
+if x1 is true then x2 will not be evaluated.
+if x1 is false, x2 will  evaluate.
+6)Conditional operator{ternary operator}
+?:
+it is a substitute of ifelse condition
+
+Class Logic2 
+{
+	public static void main(String[] args)
+	{
+		int a=10,b=20,c;
+		a+b=c;
+		System.out.println(c);
+}
+}
+  ans: error  
+-------------------------------------------------------------------------------------------
+
+
+
+what is IF condition?
+-. If is a decision making or decision control statement which checks the condition is true or false
+types of if statements
+
+1)Simple IF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2)Simple If-Else
+   if(condition)
+   {
+        statement if true;
+   }
+   else 
+   {
+        statement if false;
+   }
+
+
+
+3)Nested If-Else Condition
+  if
+{

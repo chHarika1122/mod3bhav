@@ -1,0 +1,251 @@
+Pre-tested loop:
+1)these loops checks the condition first and then display the statement, if given condition is true.
+2)While loop & for loop is an example of pretested loop.
+
+Post-tested loop:
+the loop which executes the statement first and then check the condition.this type of loop executes atleast once even if the condition is false.
+2)Do while loop is an example for posttested loop.
+
+
+FOR Loop
+Syntax:
+ For(intialization ; condition; updation)
+{
+statement inside loop;
+}
+statement outside loop;
+
+
+
+the first step is intro and the 2 is condition and if it is true then the 3 is statement afterthat 4 is updating variable and the next if will check the condition is true and it continues the cycle
+
+
+
+example loops demo
+
+
+
+
+2.)WHILE Loop
+Syntax:
+initialization;
+while(condition)
+{
+statemnet inside loop;
+updation;
+}
+statement outside the loop;
+
+
+Inwhile there is a chance of infinite loop
+in this if we use  "1"  or   "0" it throws an error
+
+
+
+3.)DOWHILE loop
+Syntax:
+intialization;
+do
+{
+statement inside loop;
+updation;
+}
+while(condition);
+statement outside loop;
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+for menu driving programs we use do while loops
+the major diff is for the " FOR loop" is designed in a way we need to know the s.p and e.p
+"WHILE loop" is designed in a way we can use alphanumeric is done easily
+
+nested loop :
+ loop within a loop is called inner loop or nested loop
+
+
+--------------------------------------------------------------------
+
+
+BRANCHING STATEMENTS
+break for skip
+continue for termination
+
+
+
+it has to be in a loop or a switch-continue
+only in a loop break
+
+---------------------------------------------------------------------------
+SWITCH CASE:
+
+break plays a major role.
+
+
+
+
+
+roll,name, %
+Display print the details
+write class studentname and create obj of student class
+
+----------------------------------------------------------------------------
+constructor is invoked (by naming itself it comes no need to call once again)
+default constructor=stuone example
+parameterized constructor= stutwo example
+private constructor is there.it says it can access within the class but not outside the class
+
+
+
+in a case where variables 
+shadowing is removed by using "THIS " keyword
+
+
+if we write private then it is used in an manner that this wont be visible
+chaining of constructors
+recursive type of constructor is not used
+
+
+
+
+why accessors and mutators?
+it is setters and getters to generate go to source and click generate getters and setter for the fields u want
+inorder 
+
+
+
+
+
+
+static belongs to class not to object 
+final var is const in static the value of data can be changed
+
+
+
+
+
+
+why inheitance
+code reusability
+it "is a relationship"
+
+
+
+Superclass first in constructors
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+string is a class in java and present in java.lang package
+String is object in java
+it has 2 methods
+1.String s="Testing";--------->String literals
+2.String s=new string("Testing")---------------->String Objects
+
+
+Java String Pool;wheneeve we create a string it will check for the data present 
+
+String is immutable in java
+
+when ever we use "==" it refers address in string objects
+in oreder to compare a value in an object ".equals"
+
+
+
+
+
+In string literals if the value of an variable is same then it will be in same address it wont differ but in the string objects it is not like that it will vary because it will be having address and in order to get check the data we need to use the (".equals") operator.
+String buffer and string builders makes a string to be mutable
+
+
+Differences btwn String buffer and string Buider?
+that mthd of stringbuffer is synchronised,String builder is not synchronised.
+stringbuffer is thread safe,string buider is not thread safe.
+stringbuffer is slower in performance,string buider is faster in performance.
+
+
+
+when one thread is working the other threads will be in the wait state. 
+
+
+buffer clases
+append is used to rewrite and handles dta
+capacity -shows capacity of the file
+charAt-character at index
+delete-to delete the one charcter and as well as set of characters but we need to add that
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+OBJECT CLASS
+an object class is a cosmic(Actually implemented to eac and every clas of java) super class.
+It is used to work on objects.
+equals(),hashcode(),getclass(),wait(),notify(),notifyAll()(),toString()
+
+whwenever we do hashcode it prints
+whenever we use wait it will acquires a lock and stops working there
+notifyall-it is used to notify all the threads
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+WRAPPER CLASSES
+converting obj to primitive or primitive to obj
+It has 2 features.
+1.Auto boxing->converting primitive to obj
+2.Auto unboxing->Converting obj to primitive
+the use of wrapper class is [inorder to get a dynamic memory allocation java introduced collection,collection support only obj type]so inorder to make that we use this class
+
+
+
+------------------------------------------------------------------------------------------------
+
+java.util.date------ date d=date.currentdate();
+java.sql.date-------
+we have 2 pacakages with same class there arises an problem.
+
+
+import java.util.Date;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+----------------------------------------------------------------------------------------------------
+PACKAGES
+create package
+adding classes
+one pacakge calling in another thing
+
+---------------------------------------------------------------------------------------
+
+POLYMORPHISM
+
+
+mthd overloading: It is a concept where the name of the method is same ,but change in parameter  or argument of methods.
+Rules:
+1.no. of arguments passed
+2.datatype of arguments
+3.Sequence in which they are passed
+
+return type doesn't matters in mthd overloading
+
+mthd overriding:It is a concept that where name of mthd is same with same parameters and arguments in super as well as sub class
+method overriding is possible with the help of inheritance.
+Rules of overiding
+1.name of mthd should be same
+2. arg should be same.
+3. seq should be same.
+4. return type should be same
